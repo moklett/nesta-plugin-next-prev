@@ -36,9 +36,10 @@ not employed).
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile (which uses a reference to the git
+repo until a gem is created):
 
-    gem 'nesta-plugin-next-prev'
+    gem 'nesta-plugin-next-prev', :git => 'git://github.com/moklett/nesta-plugin-next-prev.git'
 
 And then execute:
 
